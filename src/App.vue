@@ -10,7 +10,6 @@
           <router-link to="/about">About</router-link>|
           <router-link to="/menu">Menu</router-link>
         </nav>
-        
       </div>
     </div>
     <router-view/>

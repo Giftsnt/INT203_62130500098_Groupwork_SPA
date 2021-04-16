@@ -5,7 +5,7 @@
                 <div class="column left">
                     <img alt="about" src="../assets/ab.jpeg" class="rounded-br-full" />
                 </div>
-                <div class="column right z-20">
+                <div class="column right shadow-2xl px-10">
                     <div class="text">Dim Sum</div>
                     <p>
                         Dim Sum (Chinese: 點心 Cantonese accent meaning as you like, made to order) is a Chinese snack or appetizer.
@@ -27,37 +27,38 @@ export default {
     name: 'About-Dimsum'
 }
 </script>
+
 <style scoped>
-    .about .about-content .left img{
-    margin-left:50px;
-    height:400px;
-    width:400px;
-    object-fit: cover;
-    border-radius: 6px;
-    transition: transform 0.3s, filter 1.5s ease-in-out;
-    overflow: hidden;
+.about .about-content .left img {
+    margin-left: 50px;
+    height: 600px;
+    width: 400px;
+    object-fit: scale-down;
+    border-radius: 15px 50px 30px;
 }
-.about .about-content .left{
+.about .about-content .left {
     width: 45%;
 }
-.about .about-content .right{
-    margin-right: 50px;
+.about .about-content .right {
+    margin-right: 200px;
     width: 55%;
+    border-radius: 15px;
+    transition: 0.45s ease-in-out all;
 }
-.about .about-content .right .text{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.about .about-content .right .text {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-top: 40px;
 }
-.about .about-content .right .text span{
-    color: #db2929;
-}
-.about .about-content .right p{
+.about .about-content .right p {
     text-align: justify;
 }
 .about-content {
     display: flex;
     padding-top: 150px;
-
+}
+.about .about-content .right:hover {
+    transform: scale(1.1)
 }
 </style>
