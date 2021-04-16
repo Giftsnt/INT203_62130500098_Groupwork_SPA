@@ -6,16 +6,22 @@
           <h1 class="text-5xl font-medium tracking-wide">Dim Sum</h1>
         </div>
         <nav>
-          <router-link to="/">Home</router-link>|
-          <router-link to="/about">About</router-link>|
-          <router-link to="/menu">Menu</router-link>
+          <router-link to="/">Home</router-link> |
+          <router-link to="/about">About</router-link> |
+          <router-link to="/menu">Menu</router-link> |
+          <router-link to="/comments">Comments</router-link>
         </nav>
       </div>
     </div>
-    <router-view/>
+    <router-view />
+    <foo-ter />
   </div>
 </template>
 
+<script>
+export default {
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -25,7 +31,7 @@
   color: #2c3e50;
 }
 
-#head h1{
+#head h1 {
   height: 60px;
   align-items: center;
   color: #9c6644;
