@@ -1,9 +1,20 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <div id="nav">
+      <div class="text-2xl font-serif antialiased">
+        <div id="head">
+          <h1 class="text-5xl font-medium tracking-wide">Dim Sum</h1>
+        </div>
+        <nav>
+          <router-link to="/">Home</router-link>|
+          <router-link to="/about">About</router-link>|
+          <router-link to="/menu">Menu</router-link>
+        </nav>
+        
+      </div>
+    </div>
+    <router-view/>
   </div>
-  <router-view/>
 </template>
 
 <style>
@@ -15,8 +26,26 @@
   color: #2c3e50;
 }
 
+#head h1{
+  height: 60px;
+  align-items: center;
+  color: #9c6644;
+  width: 100%;
+  z-index: 100;
+}
+
 #nav {
-  padding: 30px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 50px 0px 100px;
+  background: #fffffc;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  flex-direction: row;
+  margin-bottom: 50px;
 }
 
 #nav a {

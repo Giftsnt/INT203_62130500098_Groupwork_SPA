@@ -1,5 +1,23 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+    <div class="about">
+      <About-Dimsum />
+    </div>
+  </template>
+
+<script>
+// @ is an alias to /src
+import AboutDimsum from '@/components/AboutDimsum.vue'
+
+export default {
+  components: {
+    AboutDimsum
+  }
+}
+</script>
+
+  <style scoped>
+#about {
+  
+}
+</style>
+  

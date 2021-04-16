@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="logo" src="../assets/bg.jpeg" class="">
   </div>
 </template>
 
@@ -16,3 +15,14 @@ export default {
   }
 }
 </script>
+<style scoped>
+  img {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+</style>
