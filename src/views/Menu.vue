@@ -1,5 +1,5 @@
 <template>
-  <div class="menu">
+  <div class="menu pb-36">
     <div class="grid grid-cols-4 pt-36 px-10" >
       <div>
         <img src="../assets/bun/BBQ-Pork-Bun.jpeg">
@@ -75,6 +75,5 @@
   img {
     padding: 5px;
     border-radius: 15px;
-
   }
 </style>
