@@ -1,16 +1,10 @@
 {
   "result": [
     {
-      "name": "da",
-      "comment": "jjjj",
-      "rating": "5",
+      "name": "Gift",
+      "comment": "Good",
+      "rating": "4",
       "id": 1
-    },
-    {
-      "name": "ffs",
-      "comment": "fsfs",
-      "rating": "1",
-      "id": 2
     }
   ]
 }
